@@ -1,0 +1,75 @@
+.homePage {
+    width: 30%;
+    padding: 1em;
+    background-color: #222;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardPage {
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h3, p, span, .fundo_icon {
+    background: local;
+}
+
+.cardPage h3 {
+    padding-top: 3em ;
+}
+
+.cardPage p {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardPage .icon_star{
+    font-size: 25px;
+}
+.homePage p {
+    padding: 1em 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card p {
+    width: 100%;
+    color: #F4CE14;
+}
+
+.card span {
+    color: #fff;
+    padding-left: 0.3em;
+}
+
+.card button {
+    width: 100%;
+    background-color: #F4CE14;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1em 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #000;
+    color: #F4CE14;
+    transition: .5s;
+}
